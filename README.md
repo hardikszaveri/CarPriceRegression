@@ -5,6 +5,11 @@
 In this application, we will explore a dataset from kaggle. The original dataset contained information on 3 million used cars but the provided dataset contains information on 426K cars to ensure speed of processing. The goal is to understand what factors make a car more or less expensive. As a result of analysis, we  should provide clear recommendations to our client -- a used car dealership -- as to what consumers value in a used car. We used standard CRISP-DM framework - a standard industry proess to work through a data problem.
 </p>
 
+<h3>Repo Structure</h3>
+The What_Drives_the_Price_of_a_Car.ipynb file contains python code related to data analysis, visualization.
+The data folder has vehicles.csv file that contains sample data used in this application.
+The carpriceregressionereport.docx file contains brief report about this application.
+
 <h3>Business Understanding</h3>
 <p>
 In the "What Drives the Price of a Car" project, we will be analyzing a subset of the Vehicle Dataset from Kaggle, which contains around 426K samples of used cars. The main objective of this analysis is to identify the factors that impact car prices. By conducting this analysis, we will provide valuable recommendations to our client, a used car dealership, regarding the features and qualities that consumers value in a used car. This will help the dealership make more informed decisions and improve their understanding of customer preferences.

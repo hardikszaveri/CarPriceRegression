@@ -2,7 +2,7 @@
 
 <h3>Overview:</h3>
 <p>
-In this application, we will explore a dataset from kaggle. The original dataset contained information on 3 million used cars but the provided dataset contains information on 426K cars to ensure speed of processing. The goal is to understand what factors make a car more or less expensive. As a result of analysis, we  should provide clear recommendations to our client -- a used car dealership -- as to what consumers value in a used car. We used standard CRISP-DM framework - a standard industry proess to work through a data problem.
+In this application, we will explore a dataset from kaggle. The original dataset contained information on 3 million used cars but the provided dataset contains information on 426K cars to ensure speed of processing. The goal is to understand what factors make a car more or less expensive. As a result of analysis, we  should provide clear recommendations to our client -- a used car dealership -- as to what consumers value in a used car. We used standard CRISP-DM framework - a standard industry process to work through a data problem.
 </p>
 
 <h3>Repo Structure</h3>
@@ -40,7 +40,7 @@ Interpret the Coefficients and Y-Intercept
 Coefficient Value: The value of each coefficient represents the expected change in the target variable for a one-unit change in the corresponding feature, assuming all other features remain constant.
 Intercept: The intercept represents the expected value of the target variable when all features are zero.
 
-year, fuel_status,size features have postive coefficients which means, unit increase in these features result in increase of target variance as per features coefficient value.
+year, fuel_status,size features have positive coefficients which means, unit increase in these features result in increase of target variance as per features coefficient value.
 Other features have negative coefficients which means, unit increase in these features result in decrease of target variance as per features coefficient value. year: 0.025344
 Intercept: -40.41. When all features are zero, the expected value of the target variable (disease progression) is -40.41 units
 </p>
@@ -53,10 +53,10 @@ Intercept: -40.41. When all features are zero, the expected value of the target 
 
 <h3>Conclusion</h3>
 <p>
-*  Year & Transmission features have strong postive impact on price of a vehicle.
+*  Year & Transmission features have strong positive impact on price of a vehicle.
 *  Fuel feature has strong negative impact on vehicle price.
 *  Maximum available vehicles belong to Gas fuel type category.
-*  Odometer has negative impact on vehicle price means vehicle price decreases with odometer value incrases
+*  Odometer has negative impact on vehicle price means vehicle price decreases with odometer value increases
 *   There exist vehicles with value 0 and duplicate samples which are outliers for dataset
 </p>
 

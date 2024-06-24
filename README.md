@@ -20,45 +20,24 @@ Throughout the analysis, we will explore various aspects of the dataset, such as
 Thank you Kaggle for allowing us to use your dataset https://www.kaggle.com/datasets.
 </p>
 
-## <h3>Data Understanding: Exploratory Data Analysis (EDA)</h3>
+## Key Highlights
+* Year & Transmission features have strong positive impact on price of a vehicle.
+* Fuel feature has strong negative impact on vehicle price.
+* Odometer has negative impact on vehicle price means vehicle price decreases with odometer value increases
+* Year, Condition, Cylinders, Transmission, Size have positive correlation with Price
+* There exist group of 2 features that have positive impact on price of a vehicle and they are Cylinders & Condition, Size & Condition, Drive and Cylinders, Size and Cylinders.
+* Odometer, Title, Fuel, Drive has negative correlation with Price
+* Maximum available vehicles belong to Gas fuel type category.
+* There exist vehicles with 0 value price and duplicate samples which are dataset outliers 
 
-## <h3>Data Preparation</h3>
-<p>
-Drop features & duplicates
-Handle Missing Values
-Handle Outliers, correct data types
-Feature Encoding
-Handling inconsistent data (example: price shouldn't be less than 1)
-Visualize cleaned Data
-</p>
+## Next steps and Recommendations
+* Year and Odometer plays significant role in Vehicle price. Keep vehicles of recent year and less Odometer value vehicles
+* Clean title brings higher value to Vehicle.
+* Continue to gather new samples for recent years data, evaluate & tune model to improve price prediction and determines the factors that drives Vehicle Price.
 
-## <h3>Modeling</h3>
 
-## <h3>Evaluation</h3>
-<p>
-Interpret the Coefficients and Y-Intercept
+### Note
+Please consult CarPriceRegressionReport.docx for a thorough analysis of the project.
 
-Coefficient Value: The value of each coefficient represents the expected change in the target variable for a one-unit change in the corresponding feature, assuming all other features remain constant.
-Intercept: The intercept represents the expected value of the target variable when all features are zero.
-
-year, fuel_status,size features have positive coefficients which means, unit increase in these features result in increase of target variance as per features coefficient value.
-Other features have negative coefficients which means, unit increase in these features result in decrease of target variance as per features coefficient value. year: 0.025344
-Intercept: -40.41. When all features are zero, the expected value of the target variable (disease progression) is -40.41 units
-</p>
-
-## <h3>Deployment</h3>
-<p>
-1. Save the trained model to a file for future use.
-2. Load the saved model and use it to make predictions on new data.
-</p>
-
-## <h3>Conclusion</h3>
-<p>
-*  Year & Transmission features have strong positive impact on price of a vehicle.
-*  Fuel feature has strong negative impact on vehicle price.
-*  Maximum available vehicles belong to Gas fuel type category.
-*  Odometer has negative impact on vehicle price means vehicle price decreases with odometer value increases
-*   There exist vehicles with value 0 and duplicate samples which are outliers for dataset
-</p>
 
 
